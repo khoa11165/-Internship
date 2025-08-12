@@ -1,0 +1,100 @@
+:root {
+  --MAIN-SIDEBAR-BG: #232f3e !important;
+  --MAIN-SIDEBAR-BG2: #232f3e !important;
+  --MAIN-SIDEBAR-HOME-BG: #232f3e !important;
+  --MAIN-SIDEBAR-HOME-COLOR: #fff !important;
+  --MAIN-SIDEBAR-HEADER-BG: #232f3e !important;
+  --MAIN-SIDEBAR-HEADER-COLOR: #fff !important;
+}
+
+/* Sidebar header và logo */
+#R-header-wrapper,
+#R-header,
+#R-logo,
+.logo-title,
+.sidebar__brand,
+.sidebar__header {
+  background-color: #232f3e !important;
+  color: #fff !important;
+}
+
+/* Toàn bộ sidebar và menu */
+#sidebar,
+.sidebar,
+.sidebar__search,
+.sidebar__footer,
+.sidebar__content,
+.sidebar__top,
+.sidebar__bottom,
+.R-sidebarmenu,
+.R-sidebarmenu ul,
+.R-sidebarmenu li,
+.R-sidebarmenu .padding {
+  background-color: #232f3e !important;
+  color: #fff !important;
+}
+
+/* Icon trong sidebar */
+.sidebar .fa,
+.sidebar .fas,
+.sidebar .fab,
+.sidebar .far {
+  color: #fff !important;
+}
+
+/* Viền search box */
+.sidebar__search {
+  border-color: #232f3e !important;
+}
+
+/* Link menu mặc định */
+.R-sidebarmenu a,
+.R-sidebarmenu a:visited,
+.R-sidebarmenu a:active,
+.R-sidebarmenu a:focus,
+.R-sidebarmenu a:hover {
+  color: #fff !important;
+  background-color: #232f3e !important;
+}
+
+/* Tab đang chọn (active) */
+.R-sidebarmenu li.active > a,
+.R-sidebarmenu li.active > a:visited,
+.R-sidebarmenu li.active > a:active,
+.R-sidebarmenu li.active > a:focus,
+.R-sidebarmenu li.active > a:hover {
+  background-color: #ff9900 !important;
+  color: #232f3e !important;
+  font-weight: bold;
+}
+
+.R-menu-divider,
+.R-menu-divider hr,
+hr.padding {
+    background: none !important;
+    border: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+
+
+
+.R-menu-divider .padding,
+hr.padding {
+    background: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: none !important;
+}
+
+#R-footer {
+    display: none !important;
+}

@@ -1,0 +1,12 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'vi-vn'
+title = 'Workshop: Advanced Analytics'
+theme = 'hugo-theme-relearn'
+
+[params]
+  customCSS = ["css/custom.css"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
